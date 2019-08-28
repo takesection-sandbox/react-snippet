@@ -7,7 +7,8 @@ React
 
 ```
 $ docker build -t react-snippet .
-$ docker run -it --rm -v `pwd`:/snippet react-snippet /bin/bash
+$ docker run -it --rm -v `pwd`:/snippet -p 3000:3000 react-snippet /bin/bash
 # cd snippet
 # npx create-react-app my-app
+
 ```
